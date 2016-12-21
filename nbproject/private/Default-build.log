@@ -1,0 +1,4 @@
+g++ -g -c main.C
+g++ -g -c traceread.C
+g++ -g -c predictor.C
+g++ -g -lm -o predictor main.o traceread.o predictor.o
